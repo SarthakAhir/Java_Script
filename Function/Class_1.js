@@ -23,3 +23,13 @@ console.log(`The sum is: ${result}`);
 
 console.log("=================================");
 
+function loginUser(username){
+    if(!username){
+        console.log("Please provide a username");
+        return;
+    }
+    return `Welcome, ${username}!`;
+}
+
+console.log(loginUser("Sarthak"));
+// console.log(loginUser());
