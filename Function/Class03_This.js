@@ -4,10 +4,11 @@ const user = {
 
     welcomeMessage: function() {
         console.log(`${this.username} , welcome to website`);
+        console.log(this);
     }
 
 }
 
-user.welcomeMessage();
+// user.welcomeMessage();
 user.username = 'sarthak Ahir';
 user.welcomeMessage();
