@@ -13,4 +13,10 @@ const user = {
 // user.username = 'sarthak Ahir';
 // user.welcomeMessage();
 
-console.log(this);
+// console.log(this);
+
+function sda(){
+    console.log(this);
+}
+
+sda();
